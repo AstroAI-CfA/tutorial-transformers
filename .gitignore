@@ -2,3 +2,6 @@ references/
 presentation/
 .ipynb_checkpoints
 .DS_Store
+
+# Scratch notebook for generating presentation figures (not part of the tutorial)
+presentation_figures.ipynb

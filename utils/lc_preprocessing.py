@@ -91,7 +91,6 @@ def interpolate_lc(
     det["dt"] = det["mjd"] - first_mjd
 
     tgrid = np.arange(min_time, eval_date, step=step, dtype=np.float32)
-    times = np.arange(0, eval_date - min_time, step=step, dtype=np.float32)
 
     fluxes = []
     for fid in [1, 2]:
@@ -126,4 +125,5 @@ def interpolate_lc(
 
     fluxes = np.stack(fluxes, axis=-1)          # (T, 2)
     masks  = (fluxes != 0).astype(np.float32)   # (T, 2)
+    times = tgrid
     return fluxes, masks, times
