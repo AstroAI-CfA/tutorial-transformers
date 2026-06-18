@@ -40,7 +40,7 @@ minutes; a GPU is used automatically if available.
 
 - **Source:** ZTF alerts served by the ALeRCE broker. Class labels come from ALeRCE's stamp
   classifier ([Carrasco-Davis et al. 2021](https://arxiv.org/abs/2008.03309)) and light-curve
-  classifier (Sánchez-Sáez et al. 2021).
+  classifier ([Sánchez-Sáez et al. 2021](https://arxiv.org/abs/2008.03311)).
 - **Light curves** are irregularly sampled and interpolated onto a regular 3-day grid from
   −30 to +150 days, with a binary mask flagging real vs. filled steps.
 - These are small, teaching-scale datasets (~286 stamps, ~310 light curves). The goal is to
