@@ -1,0 +1,19 @@
+# Introduction to Transformers — AstroAI Workshop 2026
+# Python 3.10+ recommended. Install with: pip install -r requirements.txt
+
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+
+# Deep learning
+torch>=2.1
+
+# ALeRCE broker client (Part 1 — dataset creation only)
+alerce>=2.0
+
+# Notebook environment
+notebook>=7.0
+ipykernel>=6.0
