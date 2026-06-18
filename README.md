@@ -24,8 +24,6 @@ powers both — only the tokenizer at the front changes.
 - `utils/` — supporting modules: light-curve preprocessing (`lc_preprocessing.py`),
   data loaders (`data.py`), and training/evaluation helpers (`training.py`).
 - `dataset/` — pre-built `stamps.npz` and `lightcurves.npz` plus example figures.
-- `presentation/` — reveal.js slides and the presenter script for the talk.
-- `figures/`, `references/` — talk figures and reference material.
 
 ## Setup
 
